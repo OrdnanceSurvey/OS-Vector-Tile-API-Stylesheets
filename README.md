@@ -19,6 +19,17 @@ Our labelling rules for OS MasterMap Topography Layer Cartographic Text use some
 
 `OS_VTS_3857_ESRI.json` and `OS_VTS_27700_ESRI.json`
 
+### No labels
+A stripped back map for when topography alone is all you need.
+
+`OS_VTS_3857_No_Labels.json` and `OS_VTS_27700_No_Labels.json`
+
+### Greyscale
+A simple greyscale style.
+NOTE: Only works with the OS OpenData zoom levels.
+
+`OS_VTS_3857_Greyscale.json` and `OS_VTS_27700_Greyscale.json`
+
 ## Licence
 
 The contents of this repository are licensed under the [Open Government Licence 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/)
