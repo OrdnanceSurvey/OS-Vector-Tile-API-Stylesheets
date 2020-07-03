@@ -1,9 +1,10 @@
 # OS Vector Tile API Stylesheets
 Cartographic stylesheets for use with [OS Vector Tile API](https://osdatahub.os.uk/docs/vts/overview) which is available from the [OS Data Hub](https://osdatahub.os.uk/).
 
-[This code example](https://labs.os.uk/public/os-data-hub-examples/os-vector-tile-api/vts-example-custom-style) will help you integrate these stylesheets into your application with options for Mapbox GL JS, Leaflet and ArcGIS API for JavaScript.
-
 As OS Vector Tile API is available in two projections, EPSG:27700 and EPSG:3857, which have different zoom levels, we provide a seperate stylesheet for both.
+
+## Getting started
+[This code example](https://labs.os.uk/public/os-data-hub-examples/os-vector-tile-api/vts-example-custom-style) will help you integrate these stylesheets into your application with options for Mapbox GL JS, Leaflet and ArcGIS API for JavaScript.
 
 ## Styles
 
@@ -15,7 +16,7 @@ This style uses the building height attributes (RelHMax) on OS MasterMap Topogra
 
 ### ArcGIS API for JavaScript
 Use these stylesheets with [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/).
-Our labelling rules for OS MasterMap Topography Layer Cartographic Text use some elements of the [Mapbox Style Specification](https://docs.mapbox.com/mapbox-gl-js/style-spec/) that aren't supported by ESRI. These styles have been designed to be fully compatible with ArcGIS for JavaScript.
+Our labelling rules for OS MasterMap Topography Layer Cartographic Text use some elements of the [Mapbox Style Specification](https://docs.mapbox.com/mapbox-gl-js/style-spec/) that aren't supported by ESRI. These styles have been designed to be fully compatible with ArcGIS API for JavaScript.
 
 `OS_VTS_3857_ESRI.json` and `OS_VTS_27700_ESRI.json`
 
