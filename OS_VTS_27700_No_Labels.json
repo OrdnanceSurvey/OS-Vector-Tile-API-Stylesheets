@@ -1,0 +1,6255 @@
+{
+    "version": 8,
+    "sprite": "https://api.os.uk/maps/vector/v1/vts/resources/sprites/sprite",
+    "glyphs": "https://api.os.uk/maps/vector/v1/vts/resources/fonts/{fontstack}/{range}.pbf",
+    "sources": {
+        "esri": {
+            "type": "vector",
+            "url": "https://api.os.uk/maps/vector/v1/vts"
+        }
+    },
+    "layers": [
+        {
+            "id": "background",
+            "type": "background",
+            "paint": {
+                "background-color": "#FEFFFF"
+            }
+        },
+        {
+            "id": "Background",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Background",
+            "layout": {},
+            "paint": {
+                "fill-color": "#A9DDEF"
+            }
+        },
+        {
+            "id": "European_land/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "European_land",
+            "maxzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-color": "#FAFAF3"
+            }
+        },
+        {
+            "id": "OS/GB_land/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "GB_land",
+            "layout": {},
+            "paint": {
+                "fill-color": "#F5F5F0"
+            }
+        },
+        {
+            "id": "OS/National_parks/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "National_parks",
+            "minzoom": 1,
+            "maxzoom": 7,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E2EFCE",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "OS/Urban_areas/National/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Urban_areas",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 1,
+            "maxzoom": 5,
+            "layout": {},
+            "paint": {
+                "fill-color": "rgba(220,215,198,0.3)"
+            }
+        },
+        {
+            "id": "OS/Urban_areas/Regional/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Urban_areas",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 5,
+            "maxzoom": 6,
+            "layout": {},
+            "paint": {
+                "fill-color": "rgba(220,215,198,0.7)"
+            }
+        },
+        {
+            "id": "OS/Functional_sites/Air Transport/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Functional_sites",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E6E6E6",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "OS/Functional_sites/Education/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Functional_sites",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F7EACA",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "OS/Functional_sites/Medical Care/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Functional_sites",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F3D8E7",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "OS/Functional_sites/Road Transport/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Functional_sites",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F7F3CA",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "OS/Functional_sites/Water Transport/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Functional_sites",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#D8E6F3",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "OS/Greenspace:2/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Greenspace:2",
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E3F0DB"
+            }
+        },
+        {
+            "id": "OS/Greenspace:2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Greenspace:2",
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DBE6D5",
+                "line-width": {
+                    "stops": [
+                        [
+                            6,
+                            0
+                        ],
+                        [
+                            7,
+                            0
+                        ],
+                        [
+                            8,
+                            0
+                        ],
+                        [
+                            9,
+                            0
+                        ],
+                        [
+                            10,
+                            0.1
+                        ],
+                        [
+                            11,
+                            0.15
+                        ],
+                        [
+                            12,
+                            0.25
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Unclassified",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                48
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F8F6F0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Landform Manmade",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                47
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F2F2E9"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Tidal Water",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                46
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#A9DDEF"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Landform Natural",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                45
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E4EFDA"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Glasshouse",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                44
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F3F9F4"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Rail Natural",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                42
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DCE5D3"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Structure",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                43
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E7C9C8"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Rail Manmade",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                41
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#CCCBCB"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Path",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                40
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DCDCDB"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Inland Water",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                39
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#A9DDEF"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Roadside Manmade",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                38
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F2F2E9"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Roadside Natural",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                37
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DDE6D5"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Road Or Track",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                36
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#FCFDFF"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Natural",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                34
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E4EFDA"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Manmade",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                35
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F2F2E9"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Foreshore",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                30
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#EAEAD2"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Reeds/4",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                29
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#A9DDEF"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Reeds/0",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                29
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Reeds/0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Marsh/4",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                28
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E4F3F4"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Marsh/3",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                28
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Marsh/3"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Marsh/2",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                28
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Marsh/2"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Marsh/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                28
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Marsh/1"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Shingle",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                27
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#EAEAE4"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Marsh/0",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                28
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Marsh/0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Mud",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                26
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E8E4DD"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Sand",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                25
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F4F0D3"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Saltmarsh/4",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                24
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E4F3F4"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Heath/4",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                23
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E2EFCE"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Saltmarsh/0",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                24
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Saltmarsh/0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Heath/0",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                23
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Heath/0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Rough Grassland/4",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                22
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E2EFCE"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Rough Grassland/0",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                22
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Rough Grassland/0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Scree/4",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                21
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#EAEAE4"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Scree/0",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                21
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Scree/0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Rock/4",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                20
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#EAEAE4"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Rock/0",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                20
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Rock/0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Boulders/4",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                19
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#EAEAE4"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Boulders/0",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                19
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Boulders/0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Scrub/4",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                18
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E2EFCE"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Scrub/0",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                18
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Scrub/0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Coppice Or Osiers/4",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                17
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-color": "#D1E7C3"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Coppice Or Osiers/0",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                17
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Coppice Or Osiers/0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Orchard/2",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                16
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-color": "#D1E7C3"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Agricultural Land",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                15
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F5F5F0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Orchard/0",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                16
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Orchard/0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Coniferous Tree/4",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                14
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-color": "#D1E7C3"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Coniferous Tree/0",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                14
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Coniferous Tree/0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Nonconiferous Tree/4",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                13
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-color": "#D1E7C3"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Nonconiferous Tree/0",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                13
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Nonconiferous Tree/0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Mixed Woodland/4",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                12
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-color": "#D1E7C3"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Footbridge",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                11
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E8CFCC"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Mixed Woodland/0",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                12
+            ],
+            "minzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Mixed Woodland/0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Canal",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                10
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#A9DDEF"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Step",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                9
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DCDCDB"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Track",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                8
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DCDCDB"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Pylon",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                7
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#EEE8D3"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Traffic Calming",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                6
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#FCFDFF"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Level Crossing",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#FCFDFF"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Bridge",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#D6D2D2"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Rail Bridge",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#B3B3B3"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Road Bridge",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#FCFDFF"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Archway",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DCD7C6"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Multi Surface",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#EEEFDA"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Cliff",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                32
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Cliff"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Slope",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                31
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-pattern": "OS/TopographicArea_1/Slope"
+            }
+        },
+        {
+            "id": "OS/Woodland:3/Local/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Woodland:3",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 8,
+            "maxzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-color": "#D1E7C3"
+            }
+        },
+        {
+            "id": "OS/Woodland:3/National/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Woodland:3",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 1,
+            "maxzoom": 6,
+            "layout": {},
+            "paint": {
+                "fill-color": "rgba(209,231,195,0.6)"
+            }
+        },
+        {
+            "id": "OS/Woodland:3/Regional/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Woodland:3",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 6,
+            "maxzoom": 8,
+            "layout": {},
+            "paint": {
+                "fill-color": "#D1E7C3"
+            }
+        },
+        {
+            "id": "OS/District_buildings/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "District_buildings",
+            "minzoom": 6,
+            "maxzoom": 8,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DCD7C6"
+            }
+        },
+        {
+            "id": "OS/Local_buildings/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Local_buildings",
+            "minzoom": 8,
+            "maxzoom": 11,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DCD7C6"
+            }
+        },
+        {
+            "id": "OS/Contours/Index",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Contours",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 3,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#857660",
+                "line-width": {
+                    "stops": [
+                        [
+                            3,
+                            0.1
+                        ],
+                        [
+                            4,
+                            0.15
+                        ],
+                        [
+                            5,
+                            0.4
+                        ],
+                        [
+                            6,
+                            0.4
+                        ],
+                        [
+                            7,
+                            0.5
+                        ],
+                        [
+                            8,
+                            0.6
+                        ],
+                        [
+                            9,
+                            0.8
+                        ],
+                        [
+                            10,
+                            1
+                        ],
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            12,
+                            1.2
+                        ]
+                    ]
+                },
+                "line-opacity": 0.3
+            }
+        },
+        {
+            "id": "OS/Contours/Normal",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Contours",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 7,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#857660",
+                "line-width": {
+                    "stops": [
+                        [
+                            8,
+                            0.4
+                        ],
+                        [
+                            9,
+                            0.4
+                        ],
+                        [
+                            10,
+                            0.5
+                        ],
+                        [
+                            11,
+                            0.6
+                        ],
+                        [
+                            12,
+                            0.7
+                        ]
+                    ]
+                },
+                "line-opacity": 0.3
+            }
+        },
+        {
+            "id": "OS/Surfacewater/Local",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Surfacewater",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 7,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#A9DDEF",
+                "fill-outline-color": "#A9DDEF"
+            }
+        },
+        {
+            "id": "OS/Surfacewater/National/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Surfacewater",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 2,
+            "maxzoom": 3,
+            "layout": {},
+            "paint": {
+                "fill-color": "#A9DDEF"
+            }
+        },
+        {
+            "id": "OS/Surfacewater/Regional/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Surfacewater",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 3,
+            "maxzoom": 7,
+            "layout": {},
+            "paint": {
+                "fill-color": "#A9DDEF"
+            }
+        },
+        {
+            "id": "OS/Foreshore/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Foreshore",
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#EAEAD2"
+            }
+        },
+        {
+            "id": "OS/Ornament/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Ornament",
+            "minzoom": 8,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#BABABA",
+                "fill-opacity": 0.6
+            }
+        },
+        {
+            "id": "OS/TopographicArea_2/Structure",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_2",
+            "filter": [
+                "==",
+                "_symbol",
+                6
+            ],
+            "minzoom": 11,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F5F5F0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_2/Manmade",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_2",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 11,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F5F5F0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_2/Building/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_2",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 11,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DCD7C6"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_2/Bridge",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_2",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 11,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F5F5F0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_2/Rail Bridge",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_2",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 11,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F5F5F0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_2/Road Bridge",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_2",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 11,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#F5F5F0"
+            }
+        },
+        {
+            "id": "OS/TopographicArea_2/Archway",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_2",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 11,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DCD7C6"
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Property Closing Line",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#969696",
+                "line-dasharray": [
+                    6,
+                    6
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Step",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#B2B1B1",
+                "line-width": {
+                    "stops": [
+                        [
+                            2,
+                            0.4
+                        ],
+                        [
+                            13,
+                            0.4
+                        ],
+                        [
+                            14,
+                            0.8
+                        ],
+                        [
+                            15,
+                            1.2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Mean High Water",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#7ED2E0",
+                "line-width": {
+                    "stops": [
+                        [
+                            2,
+                            0.8
+                        ],
+                        [
+                            13,
+                            0.9
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2.1
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Traffic Calming",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#BFBFBF",
+                "line-dasharray": [
+                    4,
+                    4
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Standard Gauge Track",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#949197",
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.8
+                        ],
+                        [
+                            14,
+                            1.2
+                        ],
+                        [
+                            15,
+                            2.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Mean Low Water",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#7ED2E0",
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.5
+                        ],
+                        [
+                            14,
+                            1
+                        ],
+                        [
+                            15,
+                            1.6
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Path",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                6
+            ],
+            "minzoom": 11,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#7A7977",
+                "line-dasharray": [
+                    6,
+                    4
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            12,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Overhead Construction",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                7
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#AEB4A6",
+                "line-dasharray": [
+                    2,
+                    2
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Culvert",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                8
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#7ED2E0",
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.5
+                        ],
+                        [
+                            14,
+                            1
+                        ],
+                        [
+                            15,
+                            1.8
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Pylon",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                9
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#95968F",
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            1
+                        ],
+                        [
+                            14,
+                            1.8
+                        ],
+                        [
+                            15,
+                            2.6
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Ridge Or Rock Line",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                10
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#BEBEB4",
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            1.3
+                        ],
+                        [
+                            14,
+                            2
+                        ],
+                        [
+                            15,
+                            2.6
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Narrow Gauge Track",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                11
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#949197",
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.5
+                        ],
+                        [
+                            14,
+                            1
+                        ],
+                        [
+                            15,
+                            1.8
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Railway Buffer",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                12
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#949197",
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.5
+                        ],
+                        [
+                            14,
+                            1
+                        ],
+                        [
+                            15,
+                            1.8
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Tunnel Edge",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                13
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#949197",
+                "line-dasharray": [
+                    2.5,
+                    2.5
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.5
+                        ],
+                        [
+                            14,
+                            1
+                        ],
+                        [
+                            15,
+                            2.2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Line Of Posts",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                14
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#8C8C8C",
+                "line-dasharray": [
+                    4,
+                    4
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Drain",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                15
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#7ED2E0",
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Default Line",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                16
+            ],
+            "minzoom": 11,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#7A7977",
+                "line-width": {
+                    "stops": [
+                        [
+                            12,
+                            0.4
+                        ],
+                        [
+                            14,
+                            0.7
+                        ],
+                        [
+                            15,
+                            1.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicArea_1/Building/1",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "TopographicArea_1",
+            "filter": [
+                "==",
+                "_symbol",
+                33
+            ],
+            "minzoom": 12,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DCD7C6"
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Building Outline",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                17
+            ],
+            "minzoom": 11,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#BBB49C",
+                "line-width": {
+                    "stops": [
+                        [
+                            12,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Edge Line",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                18
+            ],
+            "minzoom": 11,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#969696",
+                "line-dasharray": [
+                    2,
+                    2
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            12,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Road Or Track",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                19
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#817E79",
+                "line-dasharray": [
+                    4,
+                    4
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Building Division",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                20
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#BBB49C",
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Inland water Line",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                21
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#7ED2E0",
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/General Surface Natural Line",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                22
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#969696",
+                "line-dasharray": [
+                    2,
+                    2
+                ],
+                "line-width": 0.7
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Building Overhead Line",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                23
+            ],
+            "minzoom": 11,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#7A7977",
+                "line-dasharray": [
+                    6,
+                    4
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            12,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Landform Natural Line",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                24
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#BEBEB4",
+                "line-dasharray": [
+                    4,
+                    4
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Historic Interest Line",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                25
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#969696",
+                "line-dasharray": [
+                    4,
+                    4
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Landform Manmade Line",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                26
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#BEBEB4",
+                "line-dasharray": [
+                    4,
+                    4
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.7
+                        ],
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/TopographicLine/Unclassified",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "TopographicLine",
+            "filter": [
+                "==",
+                "_symbol",
+                27
+            ],
+            "minzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#BBB49C",
+                "line-width": {
+                    "stops": [
+                        [
+                            13,
+                            0.5
+                        ],
+                        [
+                            14,
+                            1
+                        ],
+                        [
+                            15,
+                            2.2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Waterlines/District",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Waterlines",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 5,
+            "maxzoom": 7,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#A4DAEB",
+                "line-width": 1
+            }
+        },
+        {
+            "id": "OS/Waterlines/Local",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Waterlines",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 7,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#A4DAEB",
+                "line-width": 1
+            }
+        },
+        {
+            "id": "OS/Waterlines/Local_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Waterlines",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 7,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#A4DAEB",
+                "line-width": 1
+            }
+        },
+        {
+            "id": "OS/Waterlines/MHW",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Waterlines",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 8,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#A4DAEB",
+                "line-width": 1.6
+            }
+        },
+        {
+            "id": "OS/Waterlines/MHW_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Waterlines",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 4,
+            "maxzoom": 8,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#A4DAEB",
+                "line-width": 1.3
+            }
+        },
+        {
+            "id": "OS/Waterlines/MLW",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Waterlines",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 6,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#A4DAEB",
+                "line-width": 0.8
+            }
+        },
+        {
+            "id": "OS/Waterlines/MLW_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Waterlines",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 4,
+            "maxzoom": 6,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#A4DAEB",
+                "line-width": 0.5
+            }
+        },
+        {
+            "id": "OS/Waterlines/National",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Waterlines",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 1,
+            "maxzoom": 2,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#A4DAEB",
+                "line-width": 0.4
+            }
+        },
+        {
+            "id": "OS/Waterlines/Regional",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Waterlines",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 3,
+            "maxzoom": 5,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#A4DAEB",
+                "line-width": 1
+            }
+        },
+        {
+            "id": "OS/Waterlines/Regional_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Waterlines",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 2,
+            "maxzoom": 3,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#A4DAEB",
+                "line-width": 0.5
+            }
+        },
+        {
+            "id": "OS/Roads/Tunnels,<Null>",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                19
+            ],
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "line-color": "#949197",
+                "line-dasharray": [
+                    4,
+                    2.5
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            5,
+                            0.7
+                        ],
+                        [
+                            8,
+                            0.8
+                        ],
+                        [
+                            10,
+                            1.6
+                        ],
+                        [
+                            12,
+                            1.6
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/A Road,0_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                6
+            ],
+            "minzoom": 3,
+            "maxzoom": 4,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": 1.3
+            }
+        },
+        {
+            "id": "OS/Roads/Motorway,0/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 3,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#4E94A3",
+                "line-width": {
+                    "stops": [
+                        [
+                            2,
+                            4
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            4,
+                            4.7
+                        ],
+                        [
+                            5,
+                            5.3
+                        ],
+                        [
+                            6,
+                            5.7
+                        ],
+                        [
+                            8,
+                            6
+                        ],
+                        [
+                            9,
+                            6.7
+                        ],
+                        [
+                            10,
+                            7.3
+                        ],
+                        [
+                            11,
+                            10.7
+                        ],
+                        [
+                            12,
+                            16
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Motorway,0_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 1,
+            "maxzoom": 3,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#08B7E7",
+                "line-width": 2
+            }
+        },
+        {
+            "id": "OS/Roads/Primary,0/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 4,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#73A06F",
+                "line-width": {
+                    "stops": [
+                        [
+                            1,
+                            4
+                        ],
+                        [
+                            4,
+                            3.3
+                        ],
+                        [
+                            5,
+                            4
+                        ],
+                        [
+                            6,
+                            5.3
+                        ],
+                        [
+                            8,
+                            5.3
+                        ],
+                        [
+                            9,
+                            6.3
+                        ],
+                        [
+                            10,
+                            7.3
+                        ],
+                        [
+                            11,
+                            10.7
+                        ],
+                        [
+                            12,
+                            16
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Primary,0_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 1,
+            "maxzoom": 4,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#77C776",
+                "line-width": {
+                    "stops": [
+                        [
+                            1,
+                            1.3
+                        ],
+                        [
+                            3,
+                            2
+                        ],
+                        [
+                            4,
+                            1.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/A Road,0/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                6
+            ],
+            "minzoom": 4,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#A09C92",
+                "line-width": {
+                    "stops": [
+                        [
+                            1,
+                            2.7
+                        ],
+                        [
+                            4,
+                            2.7
+                        ],
+                        [
+                            5,
+                            3.3
+                        ],
+                        [
+                            6,
+                            4
+                        ],
+                        [
+                            8,
+                            4.7
+                        ],
+                        [
+                            9,
+                            5.7
+                        ],
+                        [
+                            10,
+                            6.3
+                        ],
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            12,
+                            13.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/B Road,0/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                8
+            ],
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#9F9C93",
+                "line-width": {
+                    "stops": [
+                        [
+                            4,
+                            4
+                        ],
+                        [
+                            5,
+                            2.7
+                        ],
+                        [
+                            6,
+                            3.3
+                        ],
+                        [
+                            8,
+                            4.7
+                        ],
+                        [
+                            9,
+                            5.7
+                        ],
+                        [
+                            10,
+                            6
+                        ],
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            12,
+                            13.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Minor,0/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                10
+            ],
+            "minzoom": 6,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#C6C6C1",
+                "line-width": {
+                    "stops": [
+                        [
+                            5,
+                            3
+                        ],
+                        [
+                            6,
+                            3
+                        ],
+                        [
+                            8,
+                            4
+                        ],
+                        [
+                            9,
+                            5.3
+                        ],
+                        [
+                            10,
+                            6.7
+                        ],
+                        [
+                            11,
+                            7.3
+                        ],
+                        [
+                            12,
+                            10.7
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Local,0/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                13
+            ],
+            "minzoom": 8,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#CECDCA",
+                "line-width": {
+                    "stops": [
+                        [
+                            9,
+                            3.7
+                        ],
+                        [
+                            10,
+                            4.7
+                        ],
+                        [
+                            11,
+                            6
+                        ],
+                        [
+                            12,
+                            8.7
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Restricted,0/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                15
+            ],
+            "minzoom": 9,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#CECDCA",
+                "line-width": {
+                    "stops": [
+                        [
+                            9,
+                            3.7
+                        ],
+                        [
+                            10,
+                            4.7
+                        ],
+                        [
+                            11,
+                            5.3
+                        ],
+                        [
+                            12,
+                            7.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Guided Busway,0/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                17
+            ],
+            "minzoom": 8,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#C6C6C1",
+                "line-width": {
+                    "stops": [
+                        [
+                            8,
+                            4
+                        ],
+                        [
+                            9,
+                            4
+                        ],
+                        [
+                            10,
+                            5.3
+                        ],
+                        [
+                            11,
+                            6.7
+                        ],
+                        [
+                            12,
+                            7.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/A Road,0/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                6
+            ],
+            "minzoom": 4,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": {
+                    "stops": [
+                        [
+                            1,
+                            1.8
+                        ],
+                        [
+                            4,
+                            1.8
+                        ],
+                        [
+                            5,
+                            2.3
+                        ],
+                        [
+                            6,
+                            2.8
+                        ],
+                        [
+                            8,
+                            3.3
+                        ],
+                        [
+                            9,
+                            3.9
+                        ],
+                        [
+                            10,
+                            4.4
+                        ],
+                        [
+                            11,
+                            5.6
+                        ],
+                        [
+                            12,
+                            9.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/B Road,0/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                8
+            ],
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": {
+                    "stops": [
+                        [
+                            4,
+                            2.8
+                        ],
+                        [
+                            5,
+                            1.9
+                        ],
+                        [
+                            6,
+                            2.3
+                        ],
+                        [
+                            8,
+                            3.3
+                        ],
+                        [
+                            9,
+                            3.9
+                        ],
+                        [
+                            10,
+                            4.2
+                        ],
+                        [
+                            11,
+                            5.6
+                        ],
+                        [
+                            12,
+                            9.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Minor,0/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                10
+            ],
+            "minzoom": 6,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": {
+                    "stops": [
+                        [
+                            5,
+                            1.875
+                        ],
+                        [
+                            6,
+                            1.875
+                        ],
+                        [
+                            8,
+                            2.5
+                        ],
+                        [
+                            9,
+                            3.3
+                        ],
+                        [
+                            10,
+                            4.2
+                        ],
+                        [
+                            11,
+                            4.6
+                        ],
+                        [
+                            12,
+                            6.7
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Local,0/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                13
+            ],
+            "minzoom": 8,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": {
+                    "stops": [
+                        [
+                            9,
+                            2.3
+                        ],
+                        [
+                            10,
+                            2.9
+                        ],
+                        [
+                            11,
+                            3.75
+                        ],
+                        [
+                            12,
+                            5.4
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Restricted,0/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                15
+            ],
+            "minzoom": 9,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": {
+                    "stops": [
+                        [
+                            9,
+                            2
+                        ],
+                        [
+                            10,
+                            2.7
+                        ],
+                        [
+                            11,
+                            3
+                        ],
+                        [
+                            12,
+                            4.2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Guided Busway,0/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                17
+            ],
+            "minzoom": 8,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": {
+                    "stops": [
+                        [
+                            8,
+                            2
+                        ],
+                        [
+                            9,
+                            2
+                        ],
+                        [
+                            10,
+                            2.7
+                        ],
+                        [
+                            11,
+                            3.3
+                        ],
+                        [
+                            12,
+                            3.7
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Motorway,0/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 3,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#08B7E7",
+                "line-width": {
+                    "stops": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            3,
+                            3
+                        ],
+                        [
+                            4,
+                            3.5
+                        ],
+                        [
+                            5,
+                            4
+                        ],
+                        [
+                            6,
+                            4.25
+                        ],
+                        [
+                            8,
+                            4.5
+                        ],
+                        [
+                            9,
+                            5
+                        ],
+                        [
+                            10,
+                            5.5
+                        ],
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            12,
+                            12
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Primary,0/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 4,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#77C776",
+                "line-width": {
+                    "stops": [
+                        [
+                            1,
+                            2.5
+                        ],
+                        [
+                            4,
+                            2
+                        ],
+                        [
+                            5,
+                            2.5
+                        ],
+                        [
+                            6,
+                            3.3
+                        ],
+                        [
+                            8,
+                            3.3
+                        ],
+                        [
+                            9,
+                            3.9
+                        ],
+                        [
+                            10,
+                            4.6
+                        ],
+                        [
+                            11,
+                            6.7
+                        ],
+                        [
+                            12,
+                            10
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Motorway,1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 3,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#4E94A3",
+                "line-width": {
+                    "stops": [
+                        [
+                            2,
+                            4
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            4,
+                            4.7
+                        ],
+                        [
+                            5,
+                            5.3
+                        ],
+                        [
+                            6,
+                            5.7
+                        ],
+                        [
+                            8,
+                            6
+                        ],
+                        [
+                            9,
+                            6.7
+                        ],
+                        [
+                            10,
+                            7.3
+                        ],
+                        [
+                            11,
+                            10.7
+                        ],
+                        [
+                            12,
+                            16
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Motorway,1_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 1,
+            "maxzoom": 3,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#08B7E7",
+                "line-width": 2
+            }
+        },
+        {
+            "id": "OS/Roads/Primary,1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 4,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#73A06F",
+                "line-width": {
+                    "stops": [
+                        [
+                            1,
+                            4
+                        ],
+                        [
+                            4,
+                            3.3
+                        ],
+                        [
+                            5,
+                            4
+                        ],
+                        [
+                            6,
+                            5.3
+                        ],
+                        [
+                            8,
+                            5.3
+                        ],
+                        [
+                            9,
+                            6.3
+                        ],
+                        [
+                            10,
+                            7.3
+                        ],
+                        [
+                            11,
+                            10.7
+                        ],
+                        [
+                            12,
+                            16
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Primary,1_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 1,
+            "maxzoom": 4,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#77C776",
+                "line-width": {
+                    "stops": [
+                        [
+                            1,
+                            1.3
+                        ],
+                        [
+                            3,
+                            2
+                        ],
+                        [
+                            4,
+                            1.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/A Road,1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                7
+            ],
+            "minzoom": 4,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#9F9C93",
+                "line-width": {
+                    "stops": [
+                        [
+                            1,
+                            2.7
+                        ],
+                        [
+                            4,
+                            2.7
+                        ],
+                        [
+                            5,
+                            3.3
+                        ],
+                        [
+                            6,
+                            4
+                        ],
+                        [
+                            8,
+                            4.7
+                        ],
+                        [
+                            9,
+                            5.7
+                        ],
+                        [
+                            10,
+                            6.3
+                        ],
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            12,
+                            13.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/A Road,1_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                7
+            ],
+            "minzoom": 3,
+            "maxzoom": 4,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": 1.3
+            }
+        },
+        {
+            "id": "OS/Roads/B Road,1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                9
+            ],
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#9F9C93",
+                "line-width": {
+                    "stops": [
+                        [
+                            4,
+                            4
+                        ],
+                        [
+                            5,
+                            2.7
+                        ],
+                        [
+                            6,
+                            3.3
+                        ],
+                        [
+                            8,
+                            4.7
+                        ],
+                        [
+                            9,
+                            5.7
+                        ],
+                        [
+                            10,
+                            6
+                        ],
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            12,
+                            13.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Minor,1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                11
+            ],
+            "minzoom": 6,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#C6C6C1",
+                "line-width": {
+                    "stops": [
+                        [
+                            5,
+                            3
+                        ],
+                        [
+                            6,
+                            3
+                        ],
+                        [
+                            8,
+                            4
+                        ],
+                        [
+                            9,
+                            5.3
+                        ],
+                        [
+                            10,
+                            6.7
+                        ],
+                        [
+                            11,
+                            7.3
+                        ],
+                        [
+                            12,
+                            10.7
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Local,1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                14
+            ],
+            "minzoom": 8,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#CECDCA",
+                "line-width": {
+                    "stops": [
+                        [
+                            9,
+                            3.7
+                        ],
+                        [
+                            10,
+                            4.7
+                        ],
+                        [
+                            11,
+                            6
+                        ],
+                        [
+                            12,
+                            8.7
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Restricted,1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                16
+            ],
+            "minzoom": 9,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#CECDCA",
+                "line-width": {
+                    "stops": [
+                        [
+                            9,
+                            3.7
+                        ],
+                        [
+                            10,
+                            4.7
+                        ],
+                        [
+                            11,
+                            5.3
+                        ],
+                        [
+                            12,
+                            7.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Guided Busway,1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                18
+            ],
+            "minzoom": 8,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#C6C6C1",
+                "line-width": {
+                    "stops": [
+                        [
+                            8,
+                            4
+                        ],
+                        [
+                            9,
+                            4
+                        ],
+                        [
+                            10,
+                            5.3
+                        ],
+                        [
+                            11,
+                            6.7
+                        ],
+                        [
+                            12,
+                            7.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/A Road,1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                7
+            ],
+            "minzoom": 4,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": {
+                    "stops": [
+                        [
+                            1,
+                            1.9
+                        ],
+                        [
+                            4,
+                            1.9
+                        ],
+                        [
+                            5,
+                            2.3
+                        ],
+                        [
+                            6,
+                            2.8
+                        ],
+                        [
+                            8,
+                            3.3
+                        ],
+                        [
+                            9,
+                            3.9
+                        ],
+                        [
+                            10,
+                            4.4
+                        ],
+                        [
+                            11,
+                            5.6
+                        ],
+                        [
+                            12,
+                            9.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/B Road,1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                9
+            ],
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": {
+                    "stops": [
+                        [
+                            4,
+                            2.8
+                        ],
+                        [
+                            5,
+                            1.9
+                        ],
+                        [
+                            6,
+                            2.3
+                        ],
+                        [
+                            8,
+                            3.3
+                        ],
+                        [
+                            9,
+                            3.9
+                        ],
+                        [
+                            10,
+                            4.2
+                        ],
+                        [
+                            11,
+                            5.6
+                        ],
+                        [
+                            12,
+                            9.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Minor,1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                11
+            ],
+            "minzoom": 6,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": {
+                    "stops": [
+                        [
+                            5,
+                            1.875
+                        ],
+                        [
+                            6,
+                            1.875
+                        ],
+                        [
+                            8,
+                            2.5
+                        ],
+                        [
+                            9,
+                            3.3
+                        ],
+                        [
+                            10,
+                            4.2
+                        ],
+                        [
+                            11,
+                            4.6
+                        ],
+                        [
+                            12,
+                            6.7
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Local,1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                14
+            ],
+            "minzoom": 8,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": {
+                    "stops": [
+                        [
+                            9,
+                            2.3
+                        ],
+                        [
+                            10,
+                            2.9
+                        ],
+                        [
+                            11,
+                            3.75
+                        ],
+                        [
+                            12,
+                            5.4
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Restricted,1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                16
+            ],
+            "minzoom": 9,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": {
+                    "stops": [
+                        [
+                            9,
+                            2
+                        ],
+                        [
+                            10,
+                            2.7
+                        ],
+                        [
+                            11,
+                            3
+                        ],
+                        [
+                            12,
+                            4.2
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Guided Busway,1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                18
+            ],
+            "minzoom": 8,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": {
+                    "stops": [
+                        [
+                            8,
+                            2
+                        ],
+                        [
+                            9,
+                            2
+                        ],
+                        [
+                            10,
+                            2.7
+                        ],
+                        [
+                            11,
+                            3.3
+                        ],
+                        [
+                            12,
+                            3.7
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Motorway,1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 3,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#08B7E7",
+                "line-width": {
+                    "stops": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            3,
+                            3
+                        ],
+                        [
+                            4,
+                            3.5
+                        ],
+                        [
+                            5,
+                            4
+                        ],
+                        [
+                            6,
+                            4.25
+                        ],
+                        [
+                            8,
+                            4.5
+                        ],
+                        [
+                            9,
+                            5
+                        ],
+                        [
+                            10,
+                            5.5
+                        ],
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            12,
+                            12
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Primary,1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 4,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#77C776",
+                "line-width": {
+                    "stops": [
+                        [
+                            1,
+                            2.5
+                        ],
+                        [
+                            4,
+                            2
+                        ],
+                        [
+                            5,
+                            2.5
+                        ],
+                        [
+                            6,
+                            3.3
+                        ],
+                        [
+                            8,
+                            3.3
+                        ],
+                        [
+                            9,
+                            3.9
+                        ],
+                        [
+                            10,
+                            4.6
+                        ],
+                        [
+                            11,
+                            6.7
+                        ],
+                        [
+                            12,
+                            10
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Motorway,2/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 3,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#4E94A3",
+                "line-width": {
+                    "stops": [
+                        [
+                            2,
+                            4
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            4,
+                            4.7
+                        ],
+                        [
+                            5,
+                            5.3
+                        ],
+                        [
+                            6,
+                            5.7
+                        ],
+                        [
+                            8,
+                            6
+                        ],
+                        [
+                            9,
+                            6.7
+                        ],
+                        [
+                            10,
+                            7.3
+                        ],
+                        [
+                            11,
+                            10.7
+                        ],
+                        [
+                            12,
+                            16
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Motorway,2_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 1,
+            "maxzoom": 3,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#08B7E7",
+                "line-width": 2
+            }
+        },
+        {
+            "id": "OS/Roads/Primary,2/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 4,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#73A06F",
+                "line-width": {
+                    "stops": [
+                        [
+                            1,
+                            4
+                        ],
+                        [
+                            4,
+                            3.3
+                        ],
+                        [
+                            5,
+                            4
+                        ],
+                        [
+                            6,
+                            5.3
+                        ],
+                        [
+                            8,
+                            5.3
+                        ],
+                        [
+                            9,
+                            6.3
+                        ],
+                        [
+                            10,
+                            7.3
+                        ],
+                        [
+                            11,
+                            10.7
+                        ],
+                        [
+                            12,
+                            16
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Primary,2_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 1,
+            "maxzoom": 4,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#77C776",
+                "line-width": {
+                    "stops": [
+                        [
+                            1,
+                            1.3
+                        ],
+                        [
+                            3,
+                            2
+                        ],
+                        [
+                            4,
+                            1.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Minor,2/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                12
+            ],
+            "minzoom": 6,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#C6C6C1",
+                "line-width": {
+                    "stops": [
+                        [
+                            5,
+                            3
+                        ],
+                        [
+                            6,
+                            3
+                        ],
+                        [
+                            8,
+                            4
+                        ],
+                        [
+                            9,
+                            5.3
+                        ],
+                        [
+                            10,
+                            6.7
+                        ],
+                        [
+                            11,
+                            7.3
+                        ],
+                        [
+                            12,
+                            10.7
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Motorway,2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 3,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#08B7E7",
+                "line-width": {
+                    "stops": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            3,
+                            3
+                        ],
+                        [
+                            4,
+                            3.5
+                        ],
+                        [
+                            5,
+                            4
+                        ],
+                        [
+                            6,
+                            4.25
+                        ],
+                        [
+                            8,
+                            4.5
+                        ],
+                        [
+                            9,
+                            5
+                        ],
+                        [
+                            10,
+                            5.5
+                        ],
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            12,
+                            12
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Primary,2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 4,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#77C776",
+                "line-width": {
+                    "stops": [
+                        [
+                            1,
+                            2.5
+                        ],
+                        [
+                            4,
+                            2
+                        ],
+                        [
+                            5,
+                            2.5
+                        ],
+                        [
+                            6,
+                            3.3
+                        ],
+                        [
+                            8,
+                            3.3
+                        ],
+                        [
+                            9,
+                            3.9
+                        ],
+                        [
+                            10,
+                            4.5
+                        ],
+                        [
+                            11,
+                            6.7
+                        ],
+                        [
+                            12,
+                            10
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Roads/Minor,2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Roads",
+            "filter": [
+                "==",
+                "_symbol",
+                12
+            ],
+            "minzoom": 6,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#FFFFFF",
+                "line-width": {
+                    "stops": [
+                        [
+                            5,
+                            1.875
+                        ],
+                        [
+                            6,
+                            1.875
+                        ],
+                        [
+                            8,
+                            2.5
+                        ],
+                        [
+                            9,
+                            3.3
+                        ],
+                        [
+                            10,
+                            4.2
+                        ],
+                        [
+                            11,
+                            4.6
+                        ],
+                        [
+                            12,
+                            6.7
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Railways/Multi Track",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Railways",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#949197",
+                "line-width": {
+                    "stops": [
+                        [
+                            6,
+                            1.5
+                        ],
+                        [
+                            7,
+                            1.5
+                        ],
+                        [
+                            8,
+                            1.5
+                        ],
+                        [
+                            9,
+                            1.5
+                        ],
+                        [
+                            10,
+                            1.5
+                        ],
+                        [
+                            11,
+                            2
+                        ],
+                        [
+                            12,
+                            1.3
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Railways/Narrow Gauge",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Railways",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#949197",
+                "line-width": {
+                    "stops": [
+                        [
+                            8,
+                            0.4
+                        ],
+                        [
+                            9,
+                            0.4
+                        ],
+                        [
+                            10,
+                            0.4
+                        ],
+                        [
+                            11,
+                            0.5
+                        ],
+                        [
+                            12,
+                            0.5
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Railways/Single Track",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Railways",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#949197",
+                "line-width": {
+                    "stops": [
+                        [
+                            6,
+                            1.2
+                        ],
+                        [
+                            7,
+                            1.2
+                        ],
+                        [
+                            8,
+                            1.2
+                        ],
+                        [
+                            9,
+                            1.2
+                        ],
+                        [
+                            10,
+                            1.2
+                        ],
+                        [
+                            11,
+                            1.6
+                        ],
+                        [
+                            12,
+                            1.6
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/Railways/Tunnel",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Railways",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 5,
+            "maxzoom": 12,
+            "layout": {},
+            "paint": {
+                "line-color": "#949197",
+                "line-dasharray": [
+                    4,
+                    2
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            6,
+                            1
+                        ],
+                        [
+                            7,
+                            1
+                        ],
+                        [
+                            8,
+                            1
+                        ],
+                        [
+                            9,
+                            1
+                        ],
+                        [
+                            10,
+                            1
+                        ],
+                        [
+                            11,
+                            1.6
+                        ],
+                        [
+                            12,
+                            1.6
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "OS/ETL",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "ETL",
+            "minzoom": 9,
+            "maxzoom": 12,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#978282",
+                "line-dasharray": [
+                    6,
+                    3
+                ],
+                "line-width": {
+                    "stops": [
+                        [
+                            9,
+                            1.3
+                        ],
+                        [
+                            10,
+                            1.3
+                        ],
+                        [
+                            11,
+                            2.2
+                        ],
+                        [
+                            12,
+                            1.8
+                        ]
+                    ]
+                },
+                "line-opacity": 0.5
+            }
+        },
+        {
+            "id": "OS/Railway_stations/Light Rapid Transit Station",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "Railway_stations",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 7,
+            "maxzoom": 12,
+            "layout": {
+                "icon-image": "OS/Railway_stations/Light Rapid Transit Station",
+                "icon-size": {
+                    "stops": [
+                        [
+                            8,
+                            0.5
+                        ],
+                        [
+                            9,
+                            0.7
+                        ],
+                        [
+                            10,
+                            0.8
+                        ],
+                        [
+                            11,
+                            0.9
+                        ],
+                        [
+                            12,
+                            1
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true
+            },
+            "paint": {}
+        },
+        {
+            "id": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "Railway_stations",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 9,
+            "maxzoom": 12,
+            "layout": {
+                "icon-image": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station",
+                "icon-size": {
+                    "stops": [
+                        [
+                            8,
+                            0.5
+                        ],
+                        [
+                            9,
+                            0.7
+                        ],
+                        [
+                            10,
+                            0.8
+                        ],
+                        [
+                            11,
+                            0.9
+                        ],
+                        [
+                            12,
+                            1
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true
+            },
+            "paint": {}
+        },
+        {
+            "id": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station_1",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "Railway_stations",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 7,
+            "maxzoom": 9,
+            "layout": {
+                "icon-image": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station_1",
+                "icon-allow-overlap": true
+            },
+            "paint": {}
+        },
+        {
+            "id": "OS/Railway_stations/Light Rapid Transit Station And Railway Station",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "Railway_stations",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 7,
+            "maxzoom": 12,
+            "layout": {
+                "icon-image": "OS/Railway_stations/Light Rapid Transit Station And Railway Station",
+                "icon-size": {
+                    "stops": [
+                        [
+                            8,
+                            0.7
+                        ],
+                        [
+                            9,
+                            0.7
+                        ],
+                        [
+                            10,
+                            0.8
+                        ],
+                        [
+                            11,
+                            0.9
+                        ],
+                        [
+                            12,
+                            1
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true
+            },
+            "paint": {}
+        },
+        {
+            "id": "OS/Railway_stations/London Underground Station",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "Railway_stations",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 7,
+            "maxzoom": 12,
+            "layout": {
+                "icon-image": "OS/Railway_stations/London Underground Station",
+                "icon-size": {
+                    "stops": [
+                        [
+                            8,
+                            0.6
+                        ],
+                        [
+                            9,
+                            0.7
+                        ],
+                        [
+                            10,
+                            0.8
+                        ],
+                        [
+                            11,
+                            0.9
+                        ],
+                        [
+                            12,
+                            1
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true
+            },
+            "paint": {}
+        },
+        {
+            "id": "OS/Railway_stations/Railway Station",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "Railway_stations",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 7,
+            "maxzoom": 12,
+            "layout": {
+                "icon-image": "OS/Railway_stations/Railway Station",
+                "icon-size": {
+                    "stops": [
+                        [
+                            8,
+                            0.6
+                        ],
+                        [
+                            9,
+                            0.7
+                        ],
+                        [
+                            10,
+                            0.8
+                        ],
+                        [
+                            11,
+                            0.9
+                        ],
+                        [
+                            12,
+                            0.9
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true
+            },
+            "paint": {}
+        },
+        {
+            "id": "OS/Railway_stations/Railway Station And London Underground Station",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "Railway_stations",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 9,
+            "maxzoom": 12,
+            "layout": {
+                "icon-image": "OS/Railway_stations/Railway Station And London Underground Station",
+                "icon-size": {
+                    "stops": [
+                        [
+                            8,
+                            0.6
+                        ],
+                        [
+                            9,
+                            0.8
+                        ],
+                        [
+                            10,
+                            0.8
+                        ],
+                        [
+                            11,
+                            0.9
+                        ],
+                        [
+                            12,
+                            1
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true
+            },
+            "paint": {}
+        },
+        {
+            "id": "OS/Railway_stations/Railway Station And London Underground Station_1",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "Railway_stations",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 7,
+            "maxzoom": 9,
+            "layout": {
+                "icon-image": "OS/Railway_stations/Railway Station And London Underground Station_1",
+                "icon-allow-overlap": true
+            },
+            "paint": {}
+        },
+        {
+            "id": "OS/Airports",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "Airports",
+            "minzoom": 4,
+            "maxzoom": 12,
+            "layout": {
+                "icon-image": "OS/Airports",
+                "icon-size": {
+                    "stops": [
+                        [
+                            5,
+                            0.85
+                        ],
+                        [
+                            6,
+                            0.85
+                        ],
+                        [
+                            7,
+                            0.85
+                        ],
+                        [
+                            8,
+                            0.85
+                        ],
+                        [
+                            9,
+                            1
+                        ],
+                        [
+                            10,
+                            1
+                        ],
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            12,
+                            1
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#242424"
+            }
+        },
+        {
+            "id": "OS/TopographicPoint/Spot Height",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "TopographicPoint",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 12,
+            "layout": {
+                "icon-image": "OS/TopographicPoint/Spot Height",
+                "icon-size": {
+                    "stops": [
+                        [
+                            13,
+                            0.6
+                        ],
+                        [
+                            14,
+                            1
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#857660"
+            }
+        },
+        {
+            "id": "OS/TopographicPoint/Site Of Heritage",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "TopographicPoint",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/TopographicPoint/Site Of Heritage",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1.2
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#7D7D7D"
+            }
+        },
+        {
+            "id": "OS/TopographicPoint/Positioned Nonconiferous Tree",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "TopographicPoint",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/TopographicPoint/Positioned Nonconiferous Tree",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#296314"
+            }
+        },
+        {
+            "id": "OS/TopographicPoint/Inland Water",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "TopographicPoint",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/TopographicPoint/Inland Water",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#318FAE"
+            }
+        },
+        {
+            "id": "OS/TopographicPoint/Roadside",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "TopographicPoint",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/TopographicPoint/Roadside",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#655314"
+            }
+        },
+        {
+            "id": "OS/TopographicPoint/Overhead Construction",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "TopographicPoint",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/TopographicPoint/Overhead Construction",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#655314"
+            }
+        },
+        {
+            "id": "OS/TopographicPoint/Rail",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "TopographicPoint",
+            "filter": [
+                "==",
+                "_symbol",
+                6
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/TopographicPoint/Rail",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#7D7D7D"
+            }
+        },
+        {
+            "id": "OS/TopographicPoint/Positioned Coniferous Tree",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "TopographicPoint",
+            "filter": [
+                "==",
+                "_symbol",
+                7
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/TopographicPoint/Positioned Coniferous Tree",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#296314"
+            }
+        },
+        {
+            "id": "OS/TopographicPoint/Triangulation Point Or Pillar",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "TopographicPoint",
+            "filter": [
+                "==",
+                "_symbol",
+                8
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/TopographicPoint/Triangulation Point Or Pillar",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1.25
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#655314"
+            }
+        },
+        {
+            "id": "OS/TopographicPoint/Historic Interest",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "TopographicPoint",
+            "filter": [
+                "==",
+                "_symbol",
+                9
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/TopographicPoint/Historic Interest",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#7D7D7D"
+            }
+        },
+        {
+            "id": "OS/TopographicPoint/Landform",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "TopographicPoint",
+            "filter": [
+                "==",
+                "_symbol",
+                10
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/TopographicPoint/Landform",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "rgba(240,240,240,0)"
+            }
+        },
+        {
+            "id": "OS/TopographicPoint/Tidal Water",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "TopographicPoint",
+            "filter": [
+                "==",
+                "_symbol",
+                11
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/TopographicPoint/Tidal Water",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1.4
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#318FAE"
+            }
+        },
+        {
+            "id": "OS/TopographicPoint/Structure",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "TopographicPoint",
+            "filter": [
+                "==",
+                "_symbol",
+                12
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/TopographicPoint/Structure",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1.4
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#655314"
+            }
+        },
+        {
+            "id": "OS/CartographicSymbol/Culvert Symbol",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "CartographicSymbol",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/CartographicSymbol/Culvert Symbol",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1.6
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-rotate": [
+                    "get",
+                    "angle"
+                ],
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#318FAE"
+            }
+        },
+        {
+            "id": "OS/CartographicSymbol/Bench Mark Symbol",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "CartographicSymbol",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/CartographicSymbol/Bench Mark Symbol",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1.3
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-rotate": [
+                    "get",
+                    "angle"
+                ],
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#655314"
+            }
+        },
+        {
+            "id": "OS/CartographicSymbol/Road Related Flow Symbol",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "CartographicSymbol",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 13,
+            "layout": {
+                "icon-image": "OS/CartographicSymbol/Road Related Flow Symbol",
+                "icon-size": {
+                    "stops": [
+                        [
+                            14,
+                            1.2
+                        ],
+                        [
+                            15,
+                            2
+                        ]
+                    ]
+                },
+                "icon-rotate": [
+                    "get",
+                    "angle"
+                ],
+                "icon-allow-overlap": true,
+                "icon-rotation-alignment": "map"
+            },
+            "paint": {
+                "icon-color": "#655314"
+            }
+        }
+    ]
+}
