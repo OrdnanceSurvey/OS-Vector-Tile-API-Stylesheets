@@ -4,7 +4,7 @@ Cartographic stylesheets for use with [OS Vector Tile API](https://osdatahub.os.
 As OS Vector Tile API is available in two projections, EPSG:27700 and EPSG:3857, which have different zoom levels, we provide a seperate stylesheet for both.
 
 ## Getting started
-[This code example](https://labs.os.uk/public/os-data-hub-examples/os-vector-tile-api/vts-example-custom-style) will help you integrate these stylesheets into your application with options for Mapbox GL JS, Leaflet and ArcGIS API for JavaScript.
+[This code example](https://labs.os.uk/public/os-data-hub-examples/os-vector-tile-api/vts-example-custom-style) will help you integrate these stylesheets into your application with options for various web mapping libraries.
 
 ## Styles
 
