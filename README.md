@@ -28,12 +28,19 @@ A stripped back map for when topography alone is all you need.
 
 `OS_VTS_3857_No_Labels.json` and `OS_VTS_27700_No_Labels.json`
 
-### Greyscale
+### Greyscale (OS OpenData)
 ![Greyscale style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/Greyscale.png?token=ABO7BDKEPGIQZMZARFM6WVS7CAVL6)
 A simple greyscale style.
-NOTE: Only works with the OS OpenData zoom levels.
+NOTE: Only works with the OS OpenData but allows overzoom.
 
-`OS_VTS_3857_Greyscale.json` and `OS_VTS_27700_Greyscale.json`
+`OS_VTS_3857_Open_Greyscale.json` and `OS_VTS_27700_Open_Greyscale.json`
+
+### Outdoor (OS OpenData)
+![Greyscale style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/ESRI.png?token=ABO7BDNVY5EAUPI3SA7HKJS7CAVLM)
+Outdoor style for OS OpenData.
+NOTE: Only works with the OS OpenData but allows overzoom.
+
+`OS_VTS_3857_Open_Outdoor.json` and `OS_VTS_27700_Open_Outdoor.json`
 
 ## Licence
 
