@@ -9,38 +9,47 @@ As OS Vector Tile API is available in two projections, EPSG:27700 and EPSG:3857,
 ## Styles
 
 ### 3D buildings
-![3D buildings style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/3D.png?token=ABO7BDPMSG7HQGJR2PFLQAC7CAVKO)
+![3D buildings style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/3D.png)
 Use this style to add 3D building extrusions to your map. 
 This style uses the building height attributes (RelHMax) on OS MasterMap Topography Layer buildings to show the maximum height of each building footprint.
 
 `OS_VTS_3857_3D.json` and `OS_VTS_27700_3D.json`
 
 ### ArcGIS API for JavaScript
-![Outdoor style for ESRI](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/ESRI.png?token=ABO7BDNVY5EAUPI3SA7HKJS7CAVLM)
+![Outdoor style for ESRI](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/ESRI.png)
 Use this version of the Outdoor style with [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/).
 Our labelling rules for OS MasterMap Topography Layer Cartographic Text use some elements of the [Mapbox Style Specification](https://docs.mapbox.com/mapbox-gl-js/style-spec/) that aren't supported by ESRI. These styles have been designed to be fully compatible with ArcGIS API for JavaScript.
 
 `OS_VTS_3857_ESRI.json` and `OS_VTS_27700_ESRI.json`
 
 ### No labels
-![No Labels style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/No_Labels.png?token=ABO7BDKQGF3HCISPXJGM2AC7CAVMO)
+![No Labels style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/No_Labels.png)
 A stripped back map for when topography alone is all you need.
 
 `OS_VTS_3857_No_Labels.json` and `OS_VTS_27700_No_Labels.json`
 
+### Outdoor (OS OpenData)
+![Greyscale style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/ESRI.png)
+Outdoor style for OS OpenData.
+NOTE: Only works with the OS OpenData but allows overzoom.
+
+`OS_VTS_3857_Open_Outdoor.json` and `OS_VTS_27700_Open_Outdoor.json`
+
 ### Greyscale (OS OpenData)
-![Greyscale style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/Greyscale.png?token=ABO7BDKEPGIQZMZARFM6WVS7CAVL6)
+![Greyscale style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/Greyscale.png)
 A simple greyscale style.
 NOTE: Only works with the OS OpenData but allows overzoom.
 
 `OS_VTS_3857_Open_Greyscale.json` and `OS_VTS_27700_Open_Greyscale.json`
 
-### Outdoor (OS OpenData)
-![Greyscale style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/ESRI.png?token=ABO7BDNVY5EAUPI3SA7HKJS7CAVLM)
-Outdoor style for OS OpenData.
+### Night (OS OpenData)
+![Greyscale style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/Night.png)
+A pseudo "Night" (inverted greyscale) style.
 NOTE: Only works with the OS OpenData but allows overzoom.
 
-`OS_VTS_3857_Open_Outdoor.json` and `OS_VTS_27700_Open_Outdoor.json`
+Thanks to [Mike Brondbjerg](https://twitter.com/mikebrondbjerg/status/1353765133558943745) for the inspiration.
+
+`OS_VTS_3857_Open_Night.json` and `OS_VTS_27700_Open_Night.json`
 
 ## Licence
 
