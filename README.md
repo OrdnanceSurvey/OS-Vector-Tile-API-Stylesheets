@@ -29,7 +29,7 @@ A stripped back map for when topography alone is all you need.
 `OS_VTS_3857_No_Labels.json` and `OS_VTS_27700_No_Labels.json`
 
 ### Outdoor (OS OpenData)
-![Greyscale style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/ESRI.png)
+![Outdoor Open style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/ESRI.png)
 Outdoor style for OS OpenData.
 NOTE: Only works with the OS OpenData but allows overzoom.
 
@@ -43,13 +43,19 @@ NOTE: Only works with the OS OpenData but allows overzoom.
 `OS_VTS_3857_Open_Greyscale.json` and `OS_VTS_27700_Open_Greyscale.json`
 
 ### Night (OS OpenData)
-![Greyscale style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/Night.png)
+![Night style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/Night.png)
 A pseudo "Night" (inverted greyscale) style.
 NOTE: Only works with the OS OpenData but allows overzoom.
 
 Thanks to [Mike Brondbjerg](https://twitter.com/mikebrondbjerg/status/1353765133558943745) for the inspiration.
 
 `OS_VTS_3857_Open_Night.json` and `OS_VTS_27700_Open_Night.json`
+
+### Light
+![Light style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/Light.png)
+The OS Light style, perfect for backdrop mapping.
+
+`OS_VTS_3857_Light.json` and `OS_VTS_27700_Light.json`
 
 ## Licence
 
