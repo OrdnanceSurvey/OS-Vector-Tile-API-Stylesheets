@@ -13,17 +13,7 @@
       "id": "background",
       "type": "background",
       "paint": {
-        "background-color": "rgb(254,254,254)"
-      }
-    },
-    {
-      "id": "Background",
-      "type": "fill",
-      "source": "esri",
-      "source-layer": "Background",
-      "layout": {},
-      "paint": {
-        "fill-color": "rgb(211,211,211)"
+        "background-color": "rgb(211,211,211)"
       }
     },
     {
