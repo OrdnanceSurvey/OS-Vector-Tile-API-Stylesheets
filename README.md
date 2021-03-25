@@ -10,7 +10,7 @@ As OS Vector Tile API is available in two projections, EPSG:27700 and EPSG:3857,
 
 ### 3D buildings
 ![3D buildings style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/3D.png)
-Use this style to add 3D building extrusions to your map. 
+Use this style to add 3D building extrusions to your map.
 This style uses the building height attributes (RelHMax) on OS MasterMap Topography Layer buildings to show the maximum height of each building footprint.
 
 `OS_VTS_3857_3D.json` and `OS_VTS_27700_3D.json`
@@ -31,25 +31,28 @@ A stripped back map for when topography alone is all you need.
 ### Outdoor (OS OpenData)
 ![Outdoor Open style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/ESRI.png)
 Outdoor style for OS OpenData.
+
 NOTE: Only works with the OS OpenData but allows overzoom.
 
 `OS_VTS_3857_Open_Outdoor.json` and `OS_VTS_27700_Open_Outdoor.json`
 
-### Greyscale (OS OpenData)
+### Greyscale
 ![Greyscale style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/Greyscale.png)
 A simple greyscale style.
-NOTE: Only works with the OS OpenData but allows overzoom.
 
-`OS_VTS_3857_Open_Greyscale.json` and `OS_VTS_27700_Open_Greyscale.json`
+`OS_VTS_3857_Greyscale.json` and `OS_VTS_27700_Greyscale.json`
 
-### Night (OS OpenData)
-![Night style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/Night.png)
-A pseudo "Night" (inverted greyscale) style.
-NOTE: Only works with the OS OpenData but allows overzoom.
+(OS OpenData with overzoom => `OS_VTS_3857_Open_Greyscale.json` and `OS_VTS_27700_Open_Greyscale.json`)
+
+### Dark
+![Dark style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/Dark.png)
+A simple dark (inverted greyscale) style.
 
 Thanks to [Mike Brondbjerg](https://twitter.com/mikebrondbjerg/status/1353765133558943745) for the inspiration.
 
-`OS_VTS_3857_Open_Night.json` and `OS_VTS_27700_Open_Night.json`
+`OS_VTS_3857_Dark.json` and `OS_VTS_27700_Dark.json`
+
+(OS OpenData with overzoom => `OS_VTS_3857_Open_Dark.json` and `OS_VTS_27700_Open_Dark.json`)
 
 ### Light
 ![Light style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/Light.png)
@@ -57,8 +60,10 @@ The OS Light style, perfect for backdrop mapping.
 
 `OS_VTS_3857_Light.json` and `OS_VTS_27700_Light.json`
 
+(OS OpenData with overzoom => `OS_VTS_3857_Open_Light.json` and `OS_VTS_27700_Open_Light.json`)
+
 ## Licence
 
-The contents of this repository are licensed under the [Open Government Licence 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/)
+The contents of this repository are licensed under the [Open Government Licence 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/).
 
 ![Logo](http://www.nationalarchives.gov.uk/images/infoman/ogl-symbol-41px-retina-black.png "OGL logo")

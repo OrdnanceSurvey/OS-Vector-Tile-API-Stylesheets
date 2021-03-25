@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "sprite": "https://api.os.uk/maps/vector/v1/vts/resources/sprites/sprite",
+  "sprite": "https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/OS_VTS_27700/resources/sprites/greyscale",
   "glyphs": "https://api.os.uk/maps/vector/v1/vts/resources/fonts/{fontstack}/{range}.pbf",
   "sources": {
     "esri": {
