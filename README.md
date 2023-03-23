@@ -64,7 +64,7 @@ The OS Light style, perfect for backdrop mapping.
 
 ### Road
 ![Road style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/Road.png)
-The OS Road Style, a familiar style with a particular focus on the GB transport network.
+The OS Road style, a familiar style with a particular focus on the GB transport network.
 
 `OS_VTS_3857_Road.json` and `OS_VTS_27700_Road.json`
 
