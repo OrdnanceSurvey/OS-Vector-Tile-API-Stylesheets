@@ -62,6 +62,14 @@ The OS Light style, perfect for backdrop mapping.
 
 (OS OpenData with overzoom => `OS_VTS_3857_Open_Light.json` and `OS_VTS_27700_Open_Light.json`)
 
+### Road
+![Road style](https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/master/img/Road.png)
+The OS Road Style, a familiar style with a particular focus on the GB transport network.
+
+`OS_VTS_3857_Road.json` and `OS_VTS_27700_Road.json`
+
+(OS OpenData with overzoom => `OS_VTS_3857_Open_Road.json` and `OS_VTS_27700_Open_Road.json`)
+
 ## Licence
 
 The contents of this repository are licensed under the [Open Government Licence 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/).
