@@ -5,7 +5,9 @@
   "sources": {
     "esri": {
       "type": "vector",
-      "url": "https://api.os.uk/maps/vector/v1/vts"
+      "url": "https://api.os.uk/maps/vector/v1/vts",
+      "maxzoom": 15,
+      "minzoom": 0
     }
   },
   "layers": [
