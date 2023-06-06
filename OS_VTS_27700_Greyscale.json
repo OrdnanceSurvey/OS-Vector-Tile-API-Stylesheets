@@ -7922,8 +7922,12 @@
         "text-size": 11,
         "text-anchor": "right",
         "text-rotate": [
-          "get",
-          "_label_angle94"
+          "+",
+          180,
+          [
+            "get",
+            "_label_angle94"
+          ]
         ],
         "text-letter-spacing": 0.05,
         "text-field": "{_name94}",
@@ -7953,8 +7957,12 @@
         "text-size": 13,
         "text-anchor": "right",
         "text-rotate": [
-          "get",
-          "_label_angle84"
+          "+",
+          180,
+          [
+            "get",
+            "_label_angle84"
+          ]
         ],
         "text-letter-spacing": 0.05,
         "text-field": "{_name84}",
