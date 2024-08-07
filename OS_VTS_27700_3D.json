@@ -13,7 +13,17 @@
             "id": "background",
             "type": "background",
             "paint": {
-                "background-color": "#A9DDEF"
+                "background-color": "#FEFFFF"
+            }
+        },
+        {
+            "id": "Background",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Background",
+            "layout": {},
+            "paint": {
+                "fill-color": "#A9DDEF"
             }
         },
         {
@@ -6269,12 +6279,22 @@
                 "fill-extrusion-color": "#DCD7C6",
                 "fill-extrusion-height": [
                     "interpolate",
-                    [ "linear" ],
-                    [ "zoom" ],
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
                     16,
-                    [ "get", "RelHMax" ],
+                    [
+                        "get",
+                        "RelHMax"
+                    ],
                     16.05,
-                    [ "get", "RelHMax" ]
+                    [
+                        "get",
+                        "RelHMax"
+                    ]
                 ],
                 "fill-extrusion-opacity": 0.7
             }
@@ -7932,8 +7952,12 @@
                 "text-size": 11,
                 "text-anchor": "right",
                 "text-rotate": [
-                    "get",
-                    "_label_angle94"
+                    "+",
+                    180,
+                    [
+                        "get",
+                        "_label_angle94"
+                    ]
                 ],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name94}",
@@ -7963,8 +7987,12 @@
                 "text-size": 13,
                 "text-anchor": "right",
                 "text-rotate": [
-                    "get",
-                    "_label_angle84"
+                    "+",
+                    180,
+                    [
+                        "get",
+                        "_label_angle84"
+                    ]
                 ],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name84}",
