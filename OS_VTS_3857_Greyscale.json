@@ -31,7 +31,7 @@
             "type": "fill",
             "source": "esri",
             "source-layer": "European_land",
-            "maxzoom": 15,
+            "maxzoom": 16,
             "layout": {},
             "paint": {
                 "fill-color": "rgb(249,249,249)"
@@ -1342,7 +1342,7 @@
                 0
             ],
             "minzoom": 12,
-            "maxzoom": 15,
+            "maxzoom": 16,
             "layout": {},
             "paint": {
                 "fill-color": "rgb(223,223,223)"
@@ -1400,7 +1400,7 @@
             "source": "esri",
             "source-layer": "Local_buildings",
             "minzoom": 12,
-            "maxzoom": 15,
+            "maxzoom": 16,
             "layout": {},
             "paint": {
                 "fill-color": "rgb(214,214,214)"

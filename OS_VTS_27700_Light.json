@@ -1,6 +1,7 @@
 {
     "version": 8,
-    "sprite": "https://api.os.uk/maps/vector/v1/vts/resources/sprites/sprite",
+    "_sprite": "https://api.os.uk/maps/vector/v1/vts/resources/sprites/sprite",
+    "sprite": "https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/main/OS_VTS_3857/resources/sprites/sprite",
     "glyphs": "https://api.os.uk/maps/vector/v1/vts/resources/fonts/{fontstack}/{range}.pbf",
     "sources": {
         "esri": {
@@ -31,7 +32,7 @@
             "type": "fill",
             "source": "esri",
             "source-layer": "European_land",
-            "maxzoom": 11,
+            "maxzoom": 12,
             "layout": {},
             "paint": {
                 "fill-color": "#F1EFEC"
@@ -1296,7 +1297,7 @@
                 0
             ],
             "minzoom": 8,
-            "maxzoom": 11,
+            "maxzoom": 12,
             "layout": {},
             "paint": {
                 "fill-color": "#D8DDD4"
@@ -1354,7 +1355,7 @@
             "source": "esri",
             "source-layer": "Local_buildings",
             "minzoom": 8,
-            "maxzoom": 11,
+            "maxzoom": 12,
             "layout": {},
             "paint": {
                 "fill-color": "#E1E0DB"
