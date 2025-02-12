@@ -8,8 +8,7 @@
             "tiles": [
                 "https://api.os.uk/maps/vector/v1/vts/tile/{z}/{y}/{x}.pbf"
             ],
-            "maxzoom": 11,
-            "minzoom": 0
+            "maxzoom": 11
         }
     },
     "layers": [
