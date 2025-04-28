@@ -1,7 +1,6 @@
 {
     "version": 8,
-    "_sprite": "https://api.os.uk/maps/vector/v1/vts/resources/sprites/sprite",
-    "sprite": "https://raw.githubusercontent.com/OrdnanceSurvey/OS-Vector-Tile-API-Stylesheets/main/OS_VTS_27700/resources/sprites/sprite",
+    "sprite": "https://api.os.uk/maps/vector/v1/vts/resources/sprites/sprite",
     "glyphs": "https://api.os.uk/maps/vector/v1/vts/resources/fonts/{fontstack}/{range}.pbf",
     "sources": {
         "esri": {
@@ -7467,8 +7466,12 @@
                 "text-size": 14,
                 "text-anchor": "right",
                 "text-rotate": [
-                    "get",
-                    "_label_angle52"
+                    "+",
+                    180,
+                    [
+                        "get",
+                        "_label_angle52"
+                    ]
                 ],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name52}",
@@ -7822,8 +7825,12 @@
                 "text-size": 13,
                 "text-anchor": "right",
                 "text-rotate": [
-                    "get",
-                    "_label_angle42"
+                    "+",
+                    180,
+                    [
+                        "get",
+                        "_label_angle42"
+                    ]
                 ],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name42}",
@@ -8018,8 +8025,12 @@
                 "text-size": 13,
                 "text-anchor": "right",
                 "text-rotate": [
-                    "get",
-                    "_label_angle71"
+                    "+",
+                    180,
+                    [
+                        "get",
+                        "_label_angle71"
+                    ]
                 ],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name71}",
@@ -8165,8 +8176,12 @@
                 "text-size": 12.4,
                 "text-anchor": "right",
                 "text-rotate": [
-                    "get",
-                    "_label_angle81"
+                    "+",
+                    180,
+                    [
+                        "get",
+                        "_label_angle81"
+                    ]
                 ],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name81}",
@@ -8196,8 +8211,12 @@
                 "text-size": 14,
                 "text-anchor": "right",
                 "text-rotate": [
-                    "get",
-                    "_label_angle32"
+                    "+",
+                    180,
+                    [
+                        "get",
+                        "_label_angle32"
+                    ]
                 ],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name32}",
@@ -8580,8 +8599,12 @@
                 "text-size": 13,
                 "text-anchor": "right",
                 "text-rotate": [
-                    "get",
-                    "_label_angle22"
+                    "+",
+                    180,
+                    [
+                        "get",
+                        "_label_angle22"
+                    ]
                 ],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name22}",
@@ -8833,8 +8856,12 @@
                 "text-size": 11,
                 "text-anchor": "right",
                 "text-rotate": [
-                    "get",
-                    "_label_angle12"
+                    "+",
+                    180,
+                    [
+                        "get",
+                        "_label_angle12"
+                    ]
                 ],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name12}",
@@ -8864,8 +8891,12 @@
                 "text-size": 13,
                 "text-anchor": "right",
                 "text-rotate": [
-                    "get",
-                    "_label_angle2"
+                    "+",
+                    180,
+                    [
+                        "get",
+                        "_label_angle2"
+                    ]
                 ],
                 "text-letter-spacing": 0.05,
                 "text-field": "{_name2}",
