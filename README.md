@@ -10,7 +10,7 @@ This [code example](https://labs.os.uk/public/os-data-hub-examples/os-vector-til
 
 ## Using the styles in QGIS
 
-If you are intending to use the Vector Tiles API in QGIS (only available in EPSG: 3857), we recommend following the instructions in our [Getting started guide](https://docs.os.uk/os-apis/accessing-os-apis/os-vector-tile-api/getting-started/qgis) and then using the QGIS style files in this GitHub Repo to ensure text renders correctly. 
+If you are intending on using the Vector Tiles API in QGIS (only available in EPSG: 3857), we recommend following the instructions in our [Getting started guide](https://docs.os.uk/os-apis/accessing-os-apis/os-vector-tile-api/getting-started/qgis) and then using the QGIS style files in this GitHub Repo to ensure text renders correctly. 
 
 ## Styles
 
