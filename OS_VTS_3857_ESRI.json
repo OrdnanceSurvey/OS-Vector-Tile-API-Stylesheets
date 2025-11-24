@@ -22,7 +22,7 @@
             "type": "fill",
             "source": "esri",
             "source-layer": "Background",
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#A9DDEF"
             }
@@ -33,7 +33,7 @@
             "source": "esri",
             "source-layer": "European_land",
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#FAFAF3"
             }
@@ -43,7 +43,7 @@
             "type": "fill",
             "source": "esri",
             "source-layer": "GB_land",
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F5F5F0"
             }
@@ -55,7 +55,7 @@
             "source-layer": "National_parks",
             "minzoom": 5,
             "maxzoom": 11,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#E2EFCE",
                 "fill-opacity": 0.5
@@ -73,7 +73,7 @@
             ],
             "minzoom": 5,
             "maxzoom": 9,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "rgba(220,215,198,0.3)"
             }
@@ -90,7 +90,7 @@
             ],
             "minzoom": 9,
             "maxzoom": 10,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "rgba(220,215,198,0.7)"
             }
@@ -107,7 +107,7 @@
             ],
             "minzoom": 9,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#E6E6E6",
                 "fill-opacity": 0.5
@@ -125,7 +125,7 @@
             ],
             "minzoom": 9,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F7EACA",
                 "fill-opacity": 0.5
@@ -143,7 +143,7 @@
             ],
             "minzoom": 9,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F3D8E7",
                 "fill-opacity": 0.5
@@ -161,7 +161,7 @@
             ],
             "minzoom": 9,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F7F3CA",
                 "fill-opacity": 0.5
@@ -179,7 +179,7 @@
             ],
             "minzoom": 9,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#D8E6F3",
                 "fill-opacity": 0.5
@@ -192,7 +192,7 @@
             "source-layer": "Greenspace:2",
             "minzoom": 9,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#E3F0DB"
             }
@@ -255,7 +255,7 @@
                 48
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F8F6F0"
             }
@@ -271,7 +271,7 @@
                 47
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F2F2E9"
             }
@@ -287,7 +287,7 @@
                 46
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#A9DDEF"
             }
@@ -303,7 +303,7 @@
                 45
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#E4EFDA"
             }
@@ -319,7 +319,7 @@
                 44
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F3F9F4"
             }
@@ -335,7 +335,7 @@
                 42
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#DCE5D3"
             }
@@ -351,7 +351,7 @@
                 43
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#E7C9C8"
             }
@@ -367,7 +367,7 @@
                 41
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#CCCBCB"
             }
@@ -383,7 +383,7 @@
                 40
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#DCDCDB"
             }
@@ -399,7 +399,7 @@
                 39
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#A9DDEF"
             }
@@ -415,7 +415,7 @@
                 38
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F2F2E9"
             }
@@ -431,7 +431,7 @@
                 37
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#DDE6D5"
             }
@@ -447,7 +447,7 @@
                 36
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#FCFDFF"
             }
@@ -463,7 +463,7 @@
                 34
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#E4EFDA"
             }
@@ -479,7 +479,7 @@
                 35
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F2F2E9"
             }
@@ -495,7 +495,7 @@
                 30
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#EAEAD2"
             }
@@ -511,7 +511,7 @@
                 29
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#A9DDEF"
             }
@@ -527,7 +527,7 @@
                 29
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Reeds/3"
             }
@@ -543,7 +543,7 @@
                 29
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Reeds/2"
             }
@@ -559,7 +559,7 @@
                 29
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Reeds/1"
             }
@@ -575,7 +575,7 @@
                 29
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Reeds/0"
             }
@@ -591,7 +591,7 @@
                 28
             ],
             "minzoom": 15,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#E4F3F4"
             }
@@ -607,7 +607,7 @@
                 27
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#EAEAE4"
             }
@@ -623,7 +623,7 @@
                 28
             ],
             "minzoom": 15,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Marsh/0"
             }
@@ -639,7 +639,7 @@
                 26
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#E8E4DD"
             }
@@ -655,7 +655,7 @@
                 25
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F4F0D3"
             }
@@ -671,7 +671,7 @@
                 24
             ],
             "minzoom": 15,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#E4F3F4"
             }
@@ -687,7 +687,7 @@
                 23
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#E2EFCE"
             }
@@ -703,7 +703,7 @@
                 24
             ],
             "minzoom": 15,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Saltmarsh/0"
             }
@@ -719,7 +719,7 @@
                 23
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Heath/0"
             }
@@ -735,7 +735,7 @@
                 22
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#E2EFCE"
             }
@@ -751,7 +751,7 @@
                 22
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Rough Grassland/0"
             }
@@ -767,7 +767,7 @@
                 21
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#EAEAE4"
             }
@@ -783,7 +783,7 @@
                 21
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Scree/0"
             }
@@ -799,7 +799,7 @@
                 20
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#EAEAE4"
             }
@@ -815,7 +815,7 @@
                 20
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Rock/0"
             }
@@ -831,7 +831,7 @@
                 19
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#EAEAE4"
             }
@@ -847,7 +847,7 @@
                 19
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Boulders/0"
             }
@@ -863,7 +863,7 @@
                 18
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#E2EFCE"
             }
@@ -879,7 +879,7 @@
                 18
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Scrub/3"
             }
@@ -895,7 +895,7 @@
                 18
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Scrub/2"
             }
@@ -911,7 +911,7 @@
                 18
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Scrub/1"
             }
@@ -927,7 +927,7 @@
                 18
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Scrub/0"
             }
@@ -943,7 +943,7 @@
                 17
             ],
             "minzoom": 15,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#D1E7C3"
             }
@@ -959,7 +959,7 @@
                 17
             ],
             "minzoom": 15,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Coppice Or Osiers/0"
             }
@@ -975,7 +975,7 @@
                 16
             ],
             "minzoom": 15,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#D1E7C3"
             }
@@ -991,7 +991,7 @@
                 15
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F5F5F0"
             }
@@ -1007,7 +1007,7 @@
                 16
             ],
             "minzoom": 15,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Orchard/0"
             }
@@ -1023,7 +1023,7 @@
                 14
             ],
             "minzoom": 15,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#D1E7C3"
             }
@@ -1039,7 +1039,7 @@
                 14
             ],
             "minzoom": 15,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Coniferous Tree/0"
             }
@@ -1055,7 +1055,7 @@
                 13
             ],
             "minzoom": 15,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#D1E7C3"
             }
@@ -1071,7 +1071,7 @@
                 13
             ],
             "minzoom": 15,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Nonconiferous Tree/0"
             }
@@ -1087,7 +1087,7 @@
                 12
             ],
             "minzoom": 15,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#D1E7C3"
             }
@@ -1103,7 +1103,7 @@
                 11
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#E8CFCC"
             }
@@ -1119,7 +1119,7 @@
                 12
             ],
             "minzoom": 15,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Mixed Woodland/0"
             }
@@ -1135,7 +1135,7 @@
                 10
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#A9DDEF"
             }
@@ -1151,7 +1151,7 @@
                 9
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#DCDCDB"
             }
@@ -1167,7 +1167,7 @@
                 8
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#DCDCDB"
             }
@@ -1183,7 +1183,7 @@
                 7
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#EEE8D3"
             }
@@ -1199,7 +1199,7 @@
                 6
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#FCFDFF"
             }
@@ -1215,7 +1215,7 @@
                 5
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#FCFDFF"
             }
@@ -1231,7 +1231,7 @@
                 4
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#D6D2D2"
             }
@@ -1247,7 +1247,7 @@
                 3
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#B3B3B3"
             }
@@ -1263,7 +1263,7 @@
                 2
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#FCFDFF"
             }
@@ -1279,7 +1279,7 @@
                 1
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#DCD7C6"
             }
@@ -1295,7 +1295,7 @@
                 0
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#EEEFDA"
             }
@@ -1311,7 +1311,7 @@
                 32
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Cliff"
             }
@@ -1327,7 +1327,7 @@
                 31
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-pattern": "OS/TopographicArea_1/Slope"
             }
@@ -1344,7 +1344,7 @@
             ],
             "minzoom": 12,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#D1E7C3"
             }
@@ -1361,7 +1361,7 @@
             ],
             "minzoom": 5,
             "maxzoom": 10,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "rgba(209,231,195,0.6)"
             }
@@ -1378,7 +1378,7 @@
             ],
             "minzoom": 10,
             "maxzoom": 12,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#D1E7C3"
             }
@@ -1390,7 +1390,7 @@
             "source-layer": "District_buildings",
             "minzoom": 10,
             "maxzoom": 12,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#DCD7C6"
             }
@@ -1402,7 +1402,7 @@
             "source-layer": "Local_buildings",
             "minzoom": 12,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#DCD7C6"
             }
@@ -1528,7 +1528,7 @@
             ],
             "minzoom": 11,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#A9DDEF",
                 "fill-outline-color": "#A9DDEF"
@@ -1546,7 +1546,7 @@
             ],
             "minzoom": 6,
             "maxzoom": 7,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#A9DDEF"
             }
@@ -1563,7 +1563,7 @@
             ],
             "minzoom": 7,
             "maxzoom": 11,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#A9DDEF"
             }
@@ -1575,7 +1575,7 @@
             "source-layer": "Foreshore",
             "minzoom": 9,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#EAEAD2"
             }
@@ -1587,7 +1587,7 @@
             "source-layer": "Ornament",
             "minzoom": 12,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#BABABA",
                 "fill-opacity": 0.6
@@ -1605,7 +1605,7 @@
             ],
             "minzoom": 15,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F5F5F0"
             }
@@ -1622,7 +1622,7 @@
             ],
             "minzoom": 15,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F5F5F0"
             }
@@ -1639,7 +1639,7 @@
             ],
             "minzoom": 15,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#DCD7C6"
             }
@@ -1656,7 +1656,7 @@
             ],
             "minzoom": 15,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F5F5F0"
             }
@@ -1673,7 +1673,7 @@
             ],
             "minzoom": 15,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F5F5F0"
             }
@@ -1690,7 +1690,7 @@
             ],
             "minzoom": 15,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#F5F5F0"
             }
@@ -1707,7 +1707,7 @@
             ],
             "minzoom": 15,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#DCD7C6"
             }
@@ -2342,7 +2342,7 @@
                 33
             ],
             "minzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "fill-color": "#DCD7C6"
             }
@@ -2958,7 +2958,7 @@
             ],
             "minzoom": 9,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "line-color": "#949197",
                 "line-dasharray": [
@@ -5353,7 +5353,7 @@
             ],
             "minzoom": 9,
             "maxzoom": 16,
-            "layout": [],
+            "layout": {},
             "paint": {
                 "line-color": "#949197",
                 "line-dasharray": [
@@ -5473,7 +5473,7 @@
                 },
                 "icon-allow-overlap": true
             },
-            "paint": []
+            "paint": {}
         },
         {
             "id": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station",
@@ -5515,7 +5515,7 @@
                 },
                 "icon-allow-overlap": true
             },
-            "paint": []
+            "paint": {}
         },
         {
             "id": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station_1",
@@ -5533,7 +5533,7 @@
                 "icon-image": "OS/Railway_stations/Light Rapid Transit Station And London Underground Station_1",
                 "icon-allow-overlap": true
             },
-            "paint": []
+            "paint": {}
         },
         {
             "id": "OS/Railway_stations/Light Rapid Transit Station And Railway Station",
@@ -5575,7 +5575,7 @@
                 },
                 "icon-allow-overlap": true
             },
-            "paint": []
+            "paint": {}
         },
         {
             "id": "OS/Railway_stations/London Underground Station",
@@ -5617,7 +5617,7 @@
                 },
                 "icon-allow-overlap": true
             },
-            "paint": []
+            "paint": {}
         },
         {
             "id": "OS/Railway_stations/Railway Station",
@@ -5659,7 +5659,7 @@
                 },
                 "icon-allow-overlap": true
             },
-            "paint": []
+            "paint": {}
         },
         {
             "id": "OS/Railway_stations/Railway Station And London Underground Station",
@@ -5701,7 +5701,7 @@
                 },
                 "icon-allow-overlap": true
             },
-            "paint": []
+            "paint": {}
         },
         {
             "id": "OS/Railway_stations/Railway Station And London Underground Station_1",
@@ -5719,7 +5719,7 @@
                 "icon-image": "OS/Railway_stations/Railway Station And London Underground Station_1",
                 "icon-allow-overlap": true
             },
-            "paint": []
+            "paint": {}
         },
         {
             "id": "OS/Airports",
@@ -6201,41 +6201,6 @@
                         [
                             19,
                             2
-                        ]
-                    ]
-                },
-                "icon-rotate": {
-                    "property": "angle",
-                    "default": -90
-                },
-                "icon-allow-overlap": true
-            },
-            "paint": {
-                "icon-color": "#318FAE"
-            }
-        },
-        {
-            "id": "OS/CartographicSymbol/Direction Of Flow Symbol",
-            "type": "symbol",
-            "source": "esri",
-            "source-layer": "CartographicSymbol",
-            "filter": [
-                "==",
-                "_symbol",
-                1
-            ],
-            "minzoom": 17,
-            "layout": {
-                "icon-image": "OS/CartographicSymbol/Direction Of Flow Symbol",
-                "icon-size": {
-                    "stops": [
-                        [
-                            18,
-                            1
-                        ],
-                        [
-                            19,
-                            1.5
                         ]
                     ]
                 },
