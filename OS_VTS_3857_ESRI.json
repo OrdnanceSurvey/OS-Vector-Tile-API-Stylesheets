@@ -7232,7 +7232,7 @@
                     "Source Sans Pro Regular"
                 ],
                 "text-size": 11,
-                "text-anchor": "bottom",
+                "text-anchor": "center",
                 "text-offset": [
                     0.117647,
                     0
@@ -10623,7 +10623,7 @@
                     "Source Sans Pro Regular"
                 ],
                 "text-size": 14,
-                "text-anchor": "top",
+                "text-anchor": "bottom",
                 "text-offset": [
                     0,
                     0.688753
@@ -11083,7 +11083,7 @@
                     "Source Sans Pro Semibold"
                 ],
                 "text-size": 13,
-                "text-anchor": "bottom-left",
+                "text-anchor": "center",
                 "text-offset": [
                     0.270711,
                     0.0292893
